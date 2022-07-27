@@ -164,6 +164,7 @@ class DirectoryTree:
             for entry in tree:
                 print(entry, file=fpoint)
             print(f"└───[bright_white] Done ────[/]", file=fpoint)
+            fpoint.close()
         else:
             for entry in tree:
                 print(entry)
