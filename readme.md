@@ -2,7 +2,12 @@
 
 ## Commands
 
-    git clone .git
+    git clone https://github.com/theunderdogdev/FileTree.git
+
+## Install rich
+```bash
+pip install rich
+```
 then
 
     Windows:
